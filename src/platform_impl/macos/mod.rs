@@ -515,6 +515,7 @@ pub fn key_to_scancode(code: Code) -> Option<u32> {
         Code::ArrowUp => Some(0x7e),
         Code::CapsLock => Some(0x39),
         Code::PrintScreen => Some(0x46),
+        Code::Function => Some(0x3F)
         _ => None,
     }
 }
